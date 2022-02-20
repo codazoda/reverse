@@ -2,6 +2,8 @@
 
 This is a container for a minimalist reverse proxy using nginx.
 
+Below are some docker commands you can run to build and run individual containers. I typically run these with Docker Compose from another repo that deploys this container into an application. I'm leaving these commands here for reference, however.
+
 ## Build the Docker Image
 
 `docker build --no-cache --tag reverse .`
